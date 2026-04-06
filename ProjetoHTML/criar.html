@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="auth-wrapper">
+        <div class="card" style="max-width: 550px;">
+            <h2>Nova Tarefa</h2>
+            <form>
+                <div class="form-group">
+                    <label>Título da Tarefa</label>
+                    <input type="text" placeholder="O que precisa ser feito?">
+                </div>
+                <div class="form-group">
+                    <label>Descrição detalhada</label>
+                    <textarea rows="4" placeholder="Escreva aqui os detalhes..."></textarea>
+                </div>
+                <div style="display: flex; gap: 15px; margin-top: 10px;">
+                    <button type="button" class="btn btn-primary" style="flex: 2;"
+                        onclick="location.href='dashboard.html'">Salvar</button>
+                    <button type="button" class="btn btn-outline" style="flex: 1;"
+                        onclick="history.back()">Voltar</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="dashboard-container">
+        <div class="header-row">
+            <h1>Minhas Tarefas</h1>
+            <button class="btn btn-primary" onclick="location.href='criar.html'">+ Nova Tarefa</button>
+        </div>
+
+        <div class="task-grid">
+            <div class="task-card">
+                <span class="task-tag">PENDENTE</span>
+                <h3 style="margin: 15px 0;">Revisar proposta comercial</h3>
+                <p style="color: var(--text-muted); font-size: 0.9rem; margin-bottom: 20px;">Analisar cláusulas de prazo
+                    e valores finais antes da reunião de segunda.</p>
+                <div style="display: flex; gap: 10px;">
+                    <button class="btn btn-outline" style="padding: 8px 15px; font-size: 0.8rem;"
+                        onclick="location.href='detalhes.html'">Detalhes</button>
+                    <button class="btn btn-primary" style="padding: 8px 15px; font-size: 0.8rem;">Concluir</button>
+                </div>
+            </div>
+
+            <div class="task-card" style="border-left: 4px solid #3b82f6;">
+                <span class="task-tag" style="background: rgba(59, 130, 246, 0.1); color: #3b82f6;">EM ANDAMENTO</span>
+                <h3 style="margin: 15px 0;">Desenvolver Landing Page</h3>
+                <p style="color: var(--text-muted); font-size: 0.9rem; margin-bottom: 20px;">Finalizar a seção de
+                    contatos e integrar com a API de e-mail.</p>
+                <div style="display: flex; gap: 10px;">
+                    <button class="btn btn-outline" style="padding: 8px 15px; font-size: 0.8rem;"
+                        onclick="location.href='detalhes.html'">Detalhes</button>
+                    <button class="btn btn-primary" style="padding: 8px 15px; font-size: 0.8rem;">Concluir</button>
+                </div>
+            </div>
+
+            <div class="task-card">
+                <span class="task-tag">PENDENTE</span>
+                <h3 style="margin: 15px 0;">Atualizar Banco de Dados</h3>
+                <p style="color: var(--text-muted); font-size: 0.9rem; margin-bottom: 20px;">Realizar o backup semanal e
+                    aplicar os novos patches de segurança nos servidores.</p>
+                <div style="display: flex; gap: 10px;">
+                    <button class="btn btn-outline" style="padding: 8px 15px; font-size: 0.8rem;"
+                        onclick="location.href='detalhes.html'">Detalhes</button>
+                    <button class="btn btn-primary" style="padding: 8px 15px; font-size: 0.8rem;">Concluir</button>
+                </div>
+            </div>
+
+            <div class="task-card" style="border-left: 4px solid #3b82f6;">
+                <span class="task-tag" style="background: rgba(59, 130, 246, 0.1); color: #3b82f6;">EM ANDAMENTO</span>
+                <h3 style="margin: 15px 0;">Design do App Mobile</h3>
+                <p style="color: var(--text-muted); font-size: 0.9rem; margin-bottom: 20px;">Finalizar as telas de
+                    checkout e o fluxo de pagamento para aprovação do cliente.</p>
+                <div style="display: flex; gap: 10px;">
+                    <button class="btn btn-outline" style="padding: 8px 15px; font-size: 0.8rem;"
+                        onclick="location.href='detalhes.html'">Detalhes</button>
+                    <button class="btn btn-primary" style="padding: 8px 15px; font-size: 0.8rem;">Concluir</button>
+                </div>
+            </div>
+
+            <div class="task-card" style="border-left: 4px solid var(--danger);">
+                <span class="task-tag" style="background: rgba(255, 77, 109, 0.1); color: var(--danger);">URGENTE</span>
+                <h3 style="margin: 15px 0;">Correção de Bug Crítico</h3>
+                <p style="color: var(--text-muted); font-size: 0.9rem; margin-bottom: 20px;">O formulário de cadastro
+                    está apresentando erro 500 no mobile.</p>
+                <div style="display: flex; gap: 10px;">
+                    <button class="btn btn-outline" style="padding: 8px 15px; font-size: 0.8rem;"
+                        onclick="location.href='detalhes.html'">Detalhes</button>
+                    <button class="btn btn-primary" style="padding: 8px 15px; font-size: 0.8rem;">Concluir</button>
+                </div>
+            </div>
+
+            <div class="task-card" style="opacity: 0.7; border-left: 4px solid #10b981;">
+                <span class="task-tag" style="background: rgba(16, 185, 129, 0.1); color: #10b981;">CONCLUÍDA</span>
+                <h3 style="margin: 15px 0; text-decoration: line-through;">Reunião de Alinhamento</h3>
+                <p style="color: var(--text-muted); font-size: 0.9rem; margin-bottom: 20px;">Definir as metas para o
+                    próximo trimestre com a equipe de design.</p>
+                <div style="display: flex; gap: 10px;">
+                    <button class="btn btn-outline" style="padding: 8px 15px; font-size: 0.8rem;"
+                        onclick="location.href='detalhes.html'">Detalhes</button>
+                    <span style="color: #10b981; font-size: 0.8rem; align-self: center;">✔ Finalizado</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
